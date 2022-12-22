@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+</head>
+
+<body>
+    <header>
+        <h1>Contact us</h1>
+    </header>
+
+    <p>
+    <article>
+        <h2>Get in touch</h2>
+        <p>
+            Get in touch
+            Want to get in touch? We'd love to hear from you. Here's how you can reach us...
+            <br><br>
+            <a href="mailto:wow_w@live.se">Email: wow_w@live.se</a>
+            <br><br>
+            <a href="tel:004676000100">Phone number: 004676000100</a>
+        </p>
+        <h3>Form</h3>
+        <p>could also contact us through this form:</p>
+
+    </article>
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone">
+        <br>
+        <label>Preferred Contact Method:</label>
+        <br>
+        <label for="none-pref">None</label>
+        <input type="radio" id="none-pref" name="contact-method" value="none" checked>
+        <br>
+        <label for="email-pref">Email</label>
+        <input type="radio" id="email-pref" name="contact-method" value="email">
+        <br>
+        <label for="phone-pref">Phone</label>
+        <input type="radio" id="phone-pref" name="contact-method" value="phone">
+        <br>
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject">
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    </p>
+</body>
+
+</html>
